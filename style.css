@@ -1,4 +1,3 @@
-/* Import Google font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 * {
@@ -21,8 +20,6 @@ body {
     background: #fff;
     border-radius: 8px;
     background-color: transparent;
-    /* background-color: #001212; */
-    /* background: linear-gradient(to right, #001a0f, #001112); */
     -webkit-box-shadow: inset 0px 0px 37px 0px rgba(0, 0, 0, 1);
     -moz-box-shadow: inset 0px 0px 37px 0px rgba(0, 0, 0, 1);
     box-shadow: inset 0px 0px 37px 0px rgba(0, 0, 0, 1);
@@ -145,10 +142,6 @@ body {
 .options .option:first-child {
     pointer-events: none;
 }
-
-/* .options .option:first-child input {
-    opacity: 0.7;
-} */
 
 .options .option input {
     height: 16px;
