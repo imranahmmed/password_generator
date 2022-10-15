@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Password Generator JavaScript | CodingNepal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Password Generator</h2>
+        <div class="wrapper">
+            <div class="passwordInput">
+                <input type="text" disabled>
+                <span class="material-symbols-rounded">Copy</span>
+            </div>
+
+            <div class="passIndicator"></div>
+
+
+            <div class="lengthSlider">
+                <div class="details">
+                    <label class="title">Password Length</label>
+                    <span></span>
+                </div>
+                <input type="range" min="1" max="30" value="10" step="1">
+            </div>
+
+
+            <div class="pass-settings">
+                <label class="title">Password Settings</label>
+                <ul class="options">
+                    <li class="option">
+                        <input type="checkbox" id="lowercase" checked>
+                        <label for="lowercase">Lowercase (a-z)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="uppercase">
+                        <label for="uppercase">Uppercase (A-Z)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="numbers">
+                        <label for="numbers">Numbers (0-9)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="symbols">
+                        <label for="symbols">Symbols (!-$^+)</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="excDuplicate">
+                        <label for="excDuplicate">Exclude Duplicate</label>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="spaces">
+                        <label for="spaces">Include Spaces</label>
+                    </li>
+                </ul>
+            </div>
+            <button class="generateBtn">Generate Password</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
